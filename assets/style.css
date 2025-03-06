@@ -6,4 +6,8 @@
 }
 body{
     background: #262626;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: url();
 }
