@@ -11,3 +11,11 @@ body{
     background-position: center;
     background-image: url(images/photo-1738168362059-44a0b8a80b39.avif);
 }
+.container{
+    padding: 20px 10%;
+}
+nav{
+    display: flex;
+   text-align:  center;
+   justify-content: center;
+}
