@@ -7,44 +7,261 @@
 body{
     background: #262626;
     color: #fff;
-    background-size: 80%;
+    background-size: 70%;
     background-position: center;
-    background-image: url(images/photo-1738168362059-44a0b8a80b39.avif);
+    background-image: url(images/background.png);
 }
 .container{
     padding: 0px 15px;
 }
 nav{
     display: flex;
-   align-items: center;
-   position: absolute;
-   background: blueviolet;
-   width: 100%;
-   height: 20px;
-}
-nav h1{
-    color: #ff004f;
-    font-weight: bolder;
-    margin-top: 5px;
-}
-nav ul li{
-    display: inline-block;
-    align-items:center ;
-    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-   
-   
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 -100px;
+    margin-top: 0;
+    margin-right: 200px;
     
 }
 nav ul li a{
-    
-    
-    color: #ffd7ff;
     text-decoration: none;
+    font-family: "Oswald",sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    
+
 }
-.header-text{
-    margin-top: 50%;
-    margin: 10px 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+nav h1{
+   color: blue;
+
+}
+nav ul li a:hover{
+   color: #ff004f;
+    transition: 0.5s;
 }
 
+   
+   
+    
+
+
+.header-text{
+    
+    margin: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    padding-top: 10%;
+    padding-left: 15%;
+    margin-top: 50px;
+}
+.header-text p{
+    font-size: 18px;
+    margin: 5px 10px;
+    
+}
+
+nav.fa-solid {
+    
+    color: #ff004f;
+    display: none;
+    
+    
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    background: #ff004f;
+    transition: background transform 0.5s;
+    margin-top: 30px;
+    position: relative;
+    margin-left: 30px;
+
+}
+.btn:hover{
+    background: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------css for small screen-----------*/
+@media only screen and (max-width : 400px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .header-text{
+        color: brown;
+        font-size: 10px;
+        margin: 2px 5px;
+        
+    }
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 8px;
+        margin-top: 0;
+       
+        
+    }
+    .btn{
+        width: 150px;
+        height: 40px;
+        padding: 5px;
+        font-size: 12px;
+        color: black;
+        border-radius: 10px;
+        background: #ff004f;
+        transition: background transform 0.5s;
+        margin-top: 30px;
+        position: relative;
+        margin-left: 15px;
+    
+    }
+    .btn:hover{
+        background: green;
+    }
+    
+    
+
+}
