@@ -61,8 +61,10 @@ nav ul li a:hover{
     margin-top: 50px;
 }
 .header-text p{
-    font-size: 18px;
-    margin: 5px 10px;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
     
 }
 
@@ -74,21 +76,28 @@ nav.fa-solid {
     
 }
 .btn{
-    width: 150px;
-    height: 40px;
-    padding: 5px;
+    width: 250px;
+    height:auto;
+    padding: 15px;
     font-size: 18px;
-    color: black;
-    border-radius: 10px;
-    background: #ff004f;
+   color: #ff004f;
+    border-radius: 15px;
+    background: peru;
     transition: background transform 0.5s;
-    margin-top: 30px;
+    margin-top: 50px;
     position: relative;
-    margin-left: 30px;
+    margin-left: 30%;
 
 }
 .btn:hover{
     background: coral;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 5px 10px;
+    
+  font-family: "Merriweather", serif;
 }
 
 
@@ -231,7 +240,7 @@ nav.fa-solid {
 
     }
     .header-text{
-        color: brown;
+        color:#fff;
         font-size: 10px;
         margin: 2px 5px;
         
@@ -246,21 +255,37 @@ nav.fa-solid {
     }
     .btn{
         width: 150px;
-        height: 40px;
-        padding: 5px;
-        font-size: 12px;
-        color: black;
-        border-radius: 10px;
-        background: #ff004f;
+        height: auto;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 15px;
+        background: peru;
         transition: background transform 0.5s;
         margin-top: 30px;
         position: relative;
-        margin-left: 15px;
+        margin-left: 15%;
+
+        
     
     }
     .btn:hover{
         background: green;
     }
+    .header-text h1{
+        font-size: 15px;
+        font-weight: 900;
+        margin: 0;
+        
+      font-family: "Merriweather", serif;
+    }
+    .header-text p{
+        font-size: 8px;
+        font-family: "Libre Baskerville", serif;
+        margin-top: 10px;
+        font-weight: 600;
+        
+    }
+    
     
     
 
