@@ -34,6 +34,7 @@ nav ul li a{
     font-size: 18px;
     color: white;
     font-weight: 500;
+   
     
 
 }
@@ -255,10 +256,10 @@ nav.fa-solid {
     }
     .btn{
         width: 150px;
-        height: auto;
-        padding: 15px;
-        font-size: 20px;
-        border-radius: 15px;
+        height:5vh;
+        padding: 4px;
+        font-size: 13px;
+        border-radius: 8px;
         background: peru;
         transition: background transform 0.5s;
         margin-top: 30px;
