@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 
 }
 body{
@@ -55,7 +56,6 @@ nav ul li a:hover{
 .header-text{
     
     margin: 10px 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
     padding-top: 10%;
     padding-left: 15%;
@@ -63,7 +63,6 @@ nav ul li a:hover{
 }
 .header-text p{
     font-size: 20px;
-    font-family: "Josefin Sans", sans-serif;
     margin-top: 20px;
     font-weight: 600;
     
@@ -97,8 +96,6 @@ nav.fa-solid {
     font-size: 50px;
     font-weight: 800;
     margin: 5px 10px;
-    
-  font-family: "Merriweather", serif;
 }
 
 
@@ -274,16 +271,13 @@ nav.fa-solid {
     }
     .header-text h1{
         font-size: 15px;
-        font-weight: 900;
+        font-weight: bolder;
         margin: 0;
-        
-      font-family: "Merriweather", serif;
     }
     .header-text p{
         font-size: 8px;
-        font-family: "Libre Baskerville", serif;
         margin-top: 10px;
-        font-weight: 600;
+        font-weight: 200;
         
     }
     
